@@ -2,14 +2,17 @@ import React, { Component } from 'react'
 
  class Contacts extends Component {
   render() {
+
+    const{ Name,Télé} = this.props;
+    
     return (
       <div>
         <h1>
-          COntacts
+          Contacts
         </h1>
         <ul>
-          <li>ali hajji </li>
-          <li>0687442497</li>
+          <li>{Name} </li>
+          <li>{Télé} </li>
         </ul>
       </div>
     )
