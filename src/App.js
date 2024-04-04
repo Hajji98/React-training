@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
-
+import Contacts from './Components/Contacts/Contacts'
+import Navbar from './Components/Navbar/Navbar'
 
 export default class App extends Component {
 
   
   render() {
 
-    let name = 'Clarisse Agbegnenou';
     return (
       <div className='App'>
-        <label htmlFor='name'> {name} </label>
-
         
+        <Navbar/>
+        <Contacts/>
         
       </div>
     )
